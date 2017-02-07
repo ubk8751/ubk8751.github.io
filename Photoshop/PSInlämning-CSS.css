@@ -1,0 +1,87 @@
+@charset "utf-8";
+body{
+	background-color:#0C6;
+	background-image:url(Background.jpg);
+	background-size:cover;
+	}
+#storbox{
+	width: 80%;
+	height: 100%;
+	margin-left: 10%;
+
+	}
+header{
+	width: 100%;
+	height: 300px;
+	background-color: #8ec265;
+	margin-bottom: 0;
+	}
+#banner{
+	width: 100%;
+	height: 300px;
+	background-image:url(Banner.png);
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+	margin-bottom: 0;
+	}
+.RDA{
+	width: 1000px;
+	height: 700px;
+	background-image:url(Djur%20inl%C3%A4mmning.jpg);
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+	margin-left: 10px;
+	}
+.Företag{
+	width: 400px;
+	height: 525px;
+	background-image:url(SpotifuLog.jpg);
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+	margin-left: 10px;
+	}
+nav{
+	margin-top: 0;
+	background-color:#689c3e;
+	height: 10%;
+	width: 100%;
+	overflow:hidden;
+	}
+h4{
+	float:left;
+	margin-left: 50px;
+	font-size:30px;
+	}
+article{
+	background-color:#589129;
+	width: 100%;
+	height: 100%;
+	}
+.banner{
+	background-image:url(Banner.png);
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+	height: 300px;
+	width: 1200px;
+	margin: 10px;
+	margin-top: 0;
+	}
+p{
+	margin-left: 50px;
+	}
+a:link{
+	color:#443e9d;
+	text-decoration: none;
+	}
+a:visited{
+	color: #443e9d;
+	text-decoration: none;
+	}
+a:active{
+	color: #443e9d;
+	font-style: italic;
+	}
+a:hover{
+	color:#4574af;
+	font-weight:bold;
+	}
