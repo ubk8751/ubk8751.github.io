@@ -35,8 +35,8 @@
 		{
 			nummer = parseInt(prompt("Skriv ett nummer"));
 		}
-		while(isNaN(parseInt(nummer)));
-			
+		while(isNaN(parseInt(nummer)) || n.match(/[^\d]+/g));
+	   	
 		document.getElementById('dinSiffra').innerHTML = nummer;	
     </script>
  
