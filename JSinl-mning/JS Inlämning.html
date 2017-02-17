@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Inlämningsuppgift JavaScript</title>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+ 	
+    <p id = "hide">Hello</p>
+    	<a href="#">Click to hide me too</a>
+    <p id = "show" >Click to show again</p>
+    
+    <p>Nummret du valde: <a id="dinSiffra">default</a></p>
+     
+    <script>
+		//jQuery
+		$('#hide').hide();
+		$("#hide").click(function(){
+    		$("a").hide();
+		});
+
+		$("#show").click(function(){
+    		$("a").show();
+		});
+		
+		$( "a" ).click(function( event ) {
+		  event.preventDefault();
+		  $( this ).hide();
+		});
+		//2 och 3
+		var nummer;
+		
+		do
+		{
+			nummer = parseInt(prompt("Skriv ett nummer"));
+		}
+		while(isNaN(parseInt(nummer)));
+			
+		document.getElementById('dinSiffra').innerHTML = nummer;	
+    </script>
+ 
+</body>
+</html>
