@@ -201,11 +201,6 @@ a:hover{
 	#footertext2{
 		float:none;
 		margin-left: 10px;
-		}
-@media screen and (max-height: 700px){
-	h1{
-		font-size:48px;
-		margin-top: 1px;
-	}	
+		}	
 	}
 }
